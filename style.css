@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    color: #2a9d8f;
+}
+h1{
+    font-size: 45px;
+}
+button
+{
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+#rock
+{
+    background-image: url('images/rock.png');
+    background-size: 100% 100%;
+}
+#paper
+{ 
+    background-image: url('images/paper.png');
+    background-size: 100% 100%;
+}
+#scissor
+{
+    background-image: url('images/scissor.png');
+    background-size: 100% 100%;
+}
+input
+{
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: 25px;
+    color: #264653;
+}
+.score
+{
+    margin-top: 10px;
+}
+#result
+{
+    color: brown;
+    border: none;
+    height: 50px;
+    font-size: 50px;
+}

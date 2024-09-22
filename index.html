@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+    <button id="rock" onclick="rc();uc('Rock');wc();"></button>
+    <button id="paper" onclick="rc();uc('Paper');wc();"></button>
+    <button id="scissor" onclick="rc();uc('Scissor');wc();"></button>
+    <br>
+    <input type="text" id="uc" placeholder="Your Choice" readonly>
+    <input type="text" id="cc" placeholder="Computer Choice" readonly>
+    <br>
+    <input type="text" id="us" class="score" placeholder="Your Score" readonly>
+    <input type="text" id="cs" class="score" placeholder="Computer Score" readonly>
+    <br>
+    <input type="text" id="result" readonly>
+    <script src="script.js"></script>
+</body>
+</html>
